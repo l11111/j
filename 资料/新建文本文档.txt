@@ -1,0 +1,45 @@
+html
+
+css
+
+*{margin: 0;padding: 0;box-sizing:border-box;}
+a{text-decoration: none;color: #666;}
+ul{list-style: none;}
+body{width: 100%;height: 100%;min-width: 320px;max-width: 750px;position: relative;margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+
+font-size:12px;	 字体大小	
+font-family: "微软雅黑"; 字体	
+font-weight:700; 字体粗细
+text-indent: 2em;文本缩进(em单位表示字符)	
+line-height: 27px;  文本行高	
+text-align: center; 文本居中	
+color: red; 文本颜色
+
+border: 1px solid blue; 设置标签的边框大小，线型，颜色。
+
+background-image: url(‘…’);	背景图片background-repeat: no-repeat,repeat-x,repeat-y; 背景平铺
+float:left;浮动
+
+<form action="服务器端地址（接受表单内容的地址）" name="表单名称" target:和超链接的属性类似，用来指定目标窗口></form>表单标记
+
+文本框<input type=”text”>密码框<input type=”password”>单选按钮<input type=”radio”>
+复选按钮<input type=”checkbox”>
+提交按钮<input type=”submit”>
+重置按钮<input type=”reset”>普通按钮<input type=”button”>
+文件选择<input type=”file”>
+隐藏域<input type=”hidden”>文本域<textarea>下拉列表<select> <option>
+<table>	                表示一个表格开始	
+<caption> </caption>	表格标题部分	
+<thead> </thead>	表格头部	
+<tbody> </tbody>	表格主体	
+<tfoot> </tfoot>	表格脚部</table>
+<frameset>...<frameset>
+
+
+
+
+
+
+
